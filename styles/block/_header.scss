@@ -1,0 +1,47 @@
+/* NAVBAR */
+
+
+body {
+  font-family: Calibri;
+}
+
+.navbar {
+    
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+    
+  
+  
+  &__menu {
+    
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+  
+  &__item {
+    
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+
+    &--img {
+      height: 30px;
+    }
+  
+  }
+  
+  
+  &__link {
+    text-decoration: none;
+    color: #fff;
+
+    &:hover {
+      color: rgb(255, 0, 0);
+    }
+  }
+}
+  

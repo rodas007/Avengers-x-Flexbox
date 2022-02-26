@@ -1,0 +1,63 @@
+/* HERO */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: whitesmoke;
+  
+  
+  
+  
+  &__container {
+    display: flex;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  &__intro {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  
+  
+  &--strong {
+    color: red;
+  }
+}
+  
+  &__caption {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  &__img {
+    width: 60%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+   img:hover {
+    filter: saturate(60%)
+  }
+  
+  &__email {
+    text-decoration: none;
+    color: rgb(67, 0, 252);
+    font-size: 18px;
+  
+  
+  &:before {
+    content: "🅰️";
+  }
+  
+  &:hover {
+    color: black;
+  }
+}
+}
